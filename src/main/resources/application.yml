@@ -1,0 +1,11 @@
+spring:
+  application:
+    name:
+      spring batch
+
+  batch:
+    jdbc:
+      initialize-schema: ALWAYS
+      platform: h2
+    job:
+      enabled: true
